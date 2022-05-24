@@ -7,6 +7,10 @@
     <title>F8 - Shop</title>
     <link rel="stylesheet" href="style.css" />
     <style>
+      html {
+        font-size: 40px;
+      }
+
       .box {
         width: 50%;
         height: 100px;
@@ -14,7 +18,7 @@
       }
 
       h1 {
-        font-size: 40px;
+        font-size: 1rem;
       }
     </style>
   </head>
@@ -22,15 +26,17 @@
     <div class="box"></div>
     <div>
       <h1>CSS units?</h1>
-      <h2>1. Absolute units?</h2>
-      <ul>
-        <li>px</li>
-        <li>pt</li>
-        <li>cm</li>
-        <li>mm</li>
-        <li>inch</li>
-        <li>pc</li>
-      </ul>
     </div>
   </body>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    div:not(.box) {
+      padding: 16px;
+    }
+  </style>
 </html>
