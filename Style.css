@@ -5,6 +5,6 @@
   font-family: sans-serif;
 }
 
-div p {
+div > p {
   color: yellow;
 }
