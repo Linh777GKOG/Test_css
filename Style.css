@@ -1,7 +1,16 @@
 :root {
-  --text-color: green;
+  --text-color: violet;
 }
+/* global */
 
 h1 {
+  /* local */
+  --my-color: green;
+  color: var(--my-color);
+}
+h2 {
+  color: var(--text-color);
+}
+h3 {
   color: var(--text-color);
 }
