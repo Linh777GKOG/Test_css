@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="style.css" />
     <style>
       html {
-        font-size: 40px;
+        font-size: 100px;
       }
 
       .box {
-        width: 50%;
-        height: 100px;
+        width: 50vw;
+        /* Phụ thuộc vào trình duyệt */
+        /* trong thực tế thường sử dụng % */
+        height: 50vh;
         background-color: yellow;
       }
 
@@ -21,9 +23,13 @@
         font-size: 1em;
         /* em phụ thuộc vào thẻ gần nhất chứa nó có css font-size */
       }
+
+      /* vw - width, vh - height*/
+      /* viewport */
     </style>
   </head>
   <body>
+    <!-- mặc định 100% là 16px  -->
     <div class="box"></div>
     <div>
       <h1>CSS units?</h1>
