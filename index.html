@@ -5,28 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <p class="children-1">Đoạn văn 1 (không parent)</p>
-    <p class="children-2">Đoạn văn 2 (không parent)</p>
-
-    <div class="parent">
-      <p>Đoạn văn 1 (parent 1)</p>
-      <p class="children-1">Đoạn văn 1 (con của .parent)</p>
-      <p class="children-2">Đoạn văn 1 (con của .parent)</p>
-      <p></p>
-    </div>
-
-    <style>
-      /* Chọn tất cả thẻ "p" là con của thẻ có class "parent" */
-      .parent p {
-        color: green;
-      }
-
-      /* Chọn tất cả thẻ có class "children-1" là con của thẻ có class "parent" */
-      .parent .children-1 {
-        color: red;
-      }
+      <p class="intro">hi</p>
+      <div class="name1">
+          <p class="name2 name3">What's up</p>
+      </div>
     </style>
   </body>
 </html>
